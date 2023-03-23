@@ -1,0 +1,31 @@
+body{
+    background:#CB6363;
+}
+::placeholder{
+    color: black !important;
+}
+
+.container{
+    max-width: 480px;
+
+}
+
+input [type=text], input[type=text]:focus{
+    color: #fff;
+    border:none;
+    background: black;
+    max-width: 480px;
+
+}
+
+.maddeler li{
+background: #D87E7E;
+color: #fff;
+}
+
+.fa-trash{
+    cursor: pointer;
+}
+.filtered{
+    display: none !important;
+}
